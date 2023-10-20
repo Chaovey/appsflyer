@@ -11,7 +11,8 @@
         $data = [
             'url'=>'https://www.youtube.com/'
         ];
-        echo json_encode($data);
+        $result=json_encode($data);
+        echo $result
     ?>
 </body>
 </html>
